@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>University websitr design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="urpit.html"><img src="images/3e27bce2-1352-4553-9166-7fdcb01d198b.png"> </a>
+            <div class="anv-links" id="anvlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="myname.html">ABOUT</a></li>
+                    <li><a href="course1.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>contact us</h1>
+
+
+
+
+    </section>
+    <!---contact us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58502.449643637956!2d72.38297895!3d23.589872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c422caf789ef5%3A0x170bbc90b8be8bdc!2sMehsana%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1655368269284!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+        <h5>xyz road, ABC building</h5>
+        <p>Mehasana, gujarat, INDIA</p>
+    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+        <h5>+91 6656667656</h5>
+        <p>Monday to satursday,10 AM to 5 PM</p>
+    </span>
+                    <div>
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span>
+                <h5>pat3@gmail.com</h5>
+                <p>email us for any query</p>
+            </span>
+                        </div>
+
+                    </div>
+                    <div class="contact-col"></div>
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="enter your name" required>
+                        <input type="email" name="email" placeholder="enter Email address" required>
+                        <input type="text" name="subject" placeholder="enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="message" required></textarea>
+                        <button type="submit" class="hero-btn blue-btn">Send message</button>
+                    </form>
+
+                </div>
+
+
+    </section>
+
+    <!---footer---->
+    <section class="footer">
+        <h4>about us</h4>
+        <p>you can know everything but in limits</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by urpit patel</p>
+
+    </section>
+    <!-------javascript for toggle menu----->
+    <script>
+        var anvlinks = document.getElementById("anvlinks");
+
+        function showmenu() {
+            anvlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            anvlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

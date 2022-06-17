@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>University websitr design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="urpit.html"><img src="images/3e27bce2-1352-4553-9166-7fdcb01d198b.png"> </a>
+            <div class="anv-links" id="anvlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="myname.html">ABOUT</a></li>
+                    <li><a href="course1.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our courses</h1>
+
+
+
+
+    </section>
+    <!---our courses---->
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>for football, cricket, kabbadi, chess and etc..</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>be like ronaldo(cr7)</h3>
+                <p>you will become like ronaldo just wait and watch . that doesen't mean you gotta be like ronaldo you should become like yourself. just do hardwork like ronaldo . don't copy him.
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>be like kapil dev</h3>
+                <p>you will become like kapil dev just wait and watch . that doesen't mean you gotta be like kapil dev you should become like yourself. just do hardwork like kapil dev . don't copy him.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>be like grand master</h3>
+                <p>you will become like chess masters just wait and watch . you should become like yourself. just do hardwork like grand masters do . don't copy anyone.</p>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <!--facilities-->
+    <section class="facilities">
+        <h1>our facilities</h1>
+        <p> world's best facilities</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Koala.jpg">
+                <h3>world's best animal</h3>
+                <p>you can eat it, you can play with it, do whatever you want without harming him</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Desert.jpg">
+                <h3>world's best Desert</h3>
+                <p>you can eat it, you can play with it, do whatever you want without harming him</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Tulips.jpg">
+                <h3>world's best flower</h3>
+                <p>you can eat it, you can play with it, do whatever you want without harming him</p>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!---footer---->
+    <section class="footer">
+        <h4>about us</h4>
+        <p>you can know everything but in limits</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by urpit patel</p>
+
+    </section>
+    <!-------javascript for toggle menu----->
+    <script>
+        var anvlinks = document.getElementById("anvlinks");
+
+        function showmenu() {
+            anvlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            anvlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

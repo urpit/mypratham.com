@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>University websitr design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="urpit.html"><img src="images/3e27bce2-1352-4553-9166-7fdcb01d198b.png"> </a>
+            <div class="anv-links" id="anvlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="myname.html">ABOUT</a></li>
+                    <li><a href="course1.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About us</h1>
+
+
+
+
+    </section>
+    <!---about us content---->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>we have world's best players</h1>
+                <p>we dont care what world think about us we just do care what players around the world think about us. our clear motive is to make the best player</p>
+                <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/Penguins.jpg">
+            </div>
+        </div>
+
+
+    </section>
+    <!---footer---->
+    <section class="footer">
+        <h4>about us</h4>
+        <p>you can know everything but in limits</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by urpit patel</p>
+
+    </section>
+    <!-------javascript for toggle menu----->
+    <script>
+        var anvlinks = document.getElementById("anvlinks");
+
+        function showmenu() {
+            anvlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            anvlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
